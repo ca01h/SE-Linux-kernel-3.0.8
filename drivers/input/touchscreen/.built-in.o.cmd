@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=  arm-linux-ld -EL    -r -o drivers/input/touchscreen/built-in.o drivers/input/touchscreen/mini210_1wire_host.o drivers/input/touchscreen/ts-if.o drivers/input/touchscreen/ft5x06_ts.o 

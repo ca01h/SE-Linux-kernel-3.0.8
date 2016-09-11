@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/built-in.o :=  arm-linux-ld -EL    -r -o drivers/bluetooth/built-in.o drivers/bluetooth/hci_vhci.o drivers/bluetooth/hci_uart.o drivers/bluetooth/bcm203x.o drivers/bluetooth/bpa10x.o drivers/bluetooth/bfusb.o drivers/bluetooth/btusb.o drivers/bluetooth/btsdio.o drivers/bluetooth/ath3k.o drivers/bluetooth/btmrvl.o drivers/bluetooth/btmrvl_sdio.o 

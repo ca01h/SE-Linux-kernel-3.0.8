@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.o :=  arm-linux-ld -EL    -r -o drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/misc.o drivers/char/apm-emulation.o drivers/char/hw_random/built-in.o drivers/char/s3c_mem.o drivers/char/mini210_leds.o drivers/char/mini210_pwm.o drivers/char/mini210_adc.o drivers/char/mini210_backlight.o 
